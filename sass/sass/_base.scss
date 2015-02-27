@@ -1,0 +1,43 @@
+
+/* As hex codes */
+
+/* As hex codes */
+
+$color-red-0: #BF5B43;	/* Main red*/
+$color-red-1: #FFAA95;
+$color-red-2: #F18870;
+$color-red-3: #883420;
+$color-red-4: #51180B;
+
+$color-orange-0: #BF9143;	/* Main orange*/
+$color-orange-1: #FFD895;
+$color-orange-2: #F1C170;
+$color-orange-3: #886220;
+$color-orange-4: #51370B;
+
+$color-blue-0: #33517E;	/* Main blue*/
+$color-blue-1: #7E9DCB;
+$color-blue-2: #51719F;
+$color-blue-3: #1B345A;
+$color-blue-4: #0B1C35;
+
+$color-green-0: #308954;	/* Main green */
+$color-green-1: #7CD4A0;
+$color-green-2: #50AD76;
+$color-green-3: #176235;
+$color-green-4: #083A1C;
+
+
+
+
+body{
+	background: #FFF;
+}
+
+.full{
+	height: 100%;
+}
+
+.red{
+	background: $color-red-0;
+}
