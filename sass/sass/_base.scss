@@ -3,41 +3,56 @@
 
 /* As hex codes */
 
-$color-red-0: #BF5B43;	/* Main red*/
-$color-red-1: #FFAA95;
-$color-red-2: #F18870;
-$color-red-3: #883420;
-$color-red-4: #51180B;
+$background: #0C191D;
+$main: #0EAFE9;
+$body-font: 'Droid Serif', serif;
+$basic-border: 5px solid $main;
 
-$color-orange-0: #BF9143;	/* Main orange*/
-$color-orange-1: #FFD895;
-$color-orange-2: #F1C170;
-$color-orange-3: #886220;
-$color-orange-4: #51370B;
-
-$color-blue-0: #33517E;	/* Main blue*/
-$color-blue-1: #7E9DCB;
-$color-blue-2: #51719F;
-$color-blue-3: #1B345A;
-$color-blue-4: #0B1C35;
-
-$color-green-0: #308954;	/* Main green */
-$color-green-1: #7CD4A0;
-$color-green-2: #50AD76;
-$color-green-3: #176235;
-$color-green-4: #083A1C;
-
-
-
+html{
+	overflow:hidden;
+}
 
 body{
-	background: #FFF;
+	background-image: url('../../images/background-stars.png');
+	background: $background;
+	color: $main;
+	font-family: $body-font;
+	height:4000px;
 }
 
-.full{
-	height: 100%;
+header{
+	padding-top:30px;		
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;		
+		
+	img{
+		width:960px;
+	}
 }
 
-.red{
-	background: $color-red-0;
+
+
+.content{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	background-color: $background;
+    background-image: linear-gradient(0deg, transparent 24%, rgba(117,196,235,1) 25%, 
+    	rgba(117,196,235,1) 26%, transparent 27%, transparent 74%, rgba(117,196,235,1) 75%, 
+    	rgba(117,196,235,1) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, 
+    	rgba(117,196,235,1) 25%, rgba(117,196,235,1) 26%, transparent 27%, transparent 74%, 
+    	rgba(117,196,235,1) 75%, rgba(117,196,235,1) 76%, transparent 77%, transparent);
+  	background-size:80px 80px;
+	margin-top: 100px; 
+	border: $basic-border;
+}
+
+.module{
+	border: $basic-border;
+	background-color: $background;
+}
+
+.footer{
+	text-align: center;
 }

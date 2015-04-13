@@ -1,7 +1,7 @@
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+ * <link href="/stylesheets/main.css" media="main, projection" rel="stylesheet" type="text/css" /> */
 /* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -69,21 +69,108 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* As hex codes */
 /* As hex codes */
-/* Main red*/
-/* Main orange*/
-/* Main blue*/
-/* Main green */
-/* line 33, ../../sass/sass/_base.scss */
+/* line 11, ../../sass/sass/_base.scss */
+html {
+  overflow: hidden;
+}
+
+/* line 15, ../../sass/sass/_base.scss */
 body {
-  background: #FFF;
+  background-image: url("../../images/background-stars.png");
+  background: #0C191D;
+  color: #0EAFE9;
+  font-family: "Droid Serif", serif;
+  height: 4000px;
 }
 
-/* line 37, ../../sass/sass/_base.scss */
-.full {
-  height: 100%;
+/* line 23, ../../sass/sass/_base.scss */
+header {
+  padding-top: 30px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 29, ../../sass/sass/_base.scss */
+header img {
+  width: 960px;
 }
 
-/* line 41, ../../sass/sass/_base.scss */
-.red {
-  background: #BF5B43;
+/* line 36, ../../sass/sass/_base.scss */
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #0C191D;
+  background-image: linear-gradient(0deg, transparent 24%, #75c4eb 25%, #75c4eb 26%, transparent 27%, transparent 74%, #75c4eb 75%, #75c4eb 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, #75c4eb 25%, #75c4eb 26%, transparent 27%, transparent 74%, #75c4eb 75%, #75c4eb 76%, transparent 77%, transparent);
+  background-size: 80px 80px;
+  margin-top: 100px;
+  border: 5px solid #0EAFE9;
+}
+
+/* line 51, ../../sass/sass/_base.scss */
+.module {
+  border: 5px solid #0EAFE9;
+  background-color: #0C191D;
+}
+
+/* line 56, ../../sass/sass/_base.scss */
+.footer {
+  text-align: center;
+}
+
+/* line 3, ../../sass/sass/_parallax.scss */
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective-origin-x: 100%;
+}
+
+/* line 10, ../../sass/sass/_parallax.scss */
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin-x: 100%;
+}
+
+/* line 19, ../../sass/sass/_parallax.scss */
+.parallax-layer-2 {
+  transform: translateZ(-4px) scale(5);
+}
+
+/* line 23, ../../sass/sass/_parallax.scss */
+.parallax-layer-1 {
+  transform: translateZ(-1px) scale(2);
+}
+
+/* line 27, ../../sass/sass/_parallax.scss */
+.parallax-layer-back {
+  transform: translateZ(-8px) scale(9);
+}
+
+/* line 30, ../../sass/sass/_parallax.scss */
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+/* line 1, ../../sass/sass/_home.scss */
+.first {
+  width: 900px;
+  height: 400px;
+  top: 0;
+  left: 350px;
+}
+
+/* line 8, ../../sass/sass/_home.scss */
+.second {
+  width: 900px;
+  height: 400px;
+  top: 2000px;
+  left: 650px;
 }
