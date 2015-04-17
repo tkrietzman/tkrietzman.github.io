@@ -1,37 +1,172 @@
-/*
-Error: Invalid CSS after "...css3/font-face"": expected selector or at-rule, was "@import "base";"
-        on line 9 of /Users/terren/Sites/tkrietzman.github.io/sass/sass/main.scss
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/main.css" media="main, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-4:  * <link href="/stylesheets/main.css" media="main, projection" rel="stylesheet" type="text/css" /> *\/
-5: 
-6: @import "compass/reset";
-7: @import "compass/css3/box-shadow";
-8: @import "compass/css3/font-face"
-9: @import "base";
-10: @import "parallax";
-11: @import "home";
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
 
-Backtrace:
-/Users/terren/Sites/tkrietzman.github.io/sass/sass/main.scss:9
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:43:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/listen-2.8.5/lib/listen/listener.rb:282:in `call'
-/Library/Ruby/Gems/2.0.0/gems/listen-2.8.5/lib/listen/listener.rb:282:in `_process_changes'
-/Library/Ruby/Gems/2.0.0/gems/listen-2.8.5/lib/listen/listener.rb:246:in `block in _wait_for_changes'
-/Library/Ruby/Gems/2.0.0/gems/listen-2.8.5/lib/listen/listener.rb:229:in `loop'
-/Library/Ruby/Gems/2.0.0/gems/listen-2.8.5/lib/listen/listener.rb:229:in `_wait_for_changes'
-/Library/Ruby/Gems/2.0.0/gems/listen-2.8.5/lib/listen/listener.rb:318:in `block in _start_wait_thread'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...css3/font-face\"\": expected selector or at-rule, was \"@import \"base\";\"\A         on line 9 of /Users/terren/Sites/tkrietzman.github.io/sass/sass/main.scss\A \A 4:  * <link href=\"/stylesheets/main.css\" media=\"main, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\A 5: \A 6: @import \"compass/reset\";\A 7: @import \"compass/css3/box-shadow\";\A 8: @import \"compass/css3/font-face\"\A 9: @import \"base\";\A 10: @import \"parallax\";\A 11: @import \"home\";"; }
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* As hex codes */
+/* As hex codes */
+/* line 11, ../../sass/sass/_base.scss */
+html {
+  overflow: hidden;
+}
+
+/* line 15, ../../sass/sass/_base.scss */
+body {
+  background-color: #4D4D4D;
+  background-image: linear-gradient(0deg, transparent 24%, rgba(196, 196, 196, 0.3) 25%, rgba(196, 196, 196, 0.3) 26%, transparent 27%, transparent 74%, rgba(196, 196, 196, 0.3) 75%, rgba(196, 196, 196, 0.3) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(196, 196, 196, 0.3) 25%, rgba(196, 196, 196, 0.3) 26%, transparent 27%, transparent 74%, rgba(196, 196, 196, 0.3) 75%, rgba(196, 196, 196, 0.3) 76%, transparent 77%, transparent);
+  background-size: 100px 100px;
+  color: #0EAFE9;
+  font-family: "Droid Serif", serif;
+}
+
+/* line 28, ../../sass/sass/_base.scss */
+.grid-title {
+  width: 960px;
+}
+
+/* line 32, ../../sass/sass/_base.scss */
+.content {
+  height: 100%;
+  background-color: #4D4D4D;
+  border: 5px solid #0EAFE9;
+}
+
+/* line 38, ../../sass/sass/_base.scss */
+.module {
+  border: 5px solid #0EAFE9;
+  background-color: #4D4D4D;
+}
+
+/* line 43, ../../sass/sass/_base.scss */
+.footer {
+  text-align: center;
+}
+
+/* line 47, ../../sass/sass/_base.scss */
+.profile {
+  height: 350px;
+  border: 5px solid #0EAFE9;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/* line 3, ../../sass/sass/_parallax.scss */
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective-origin-x: 100%;
+}
+
+/* line 10, ../../sass/sass/_parallax.scss */
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin-x: 100%;
+}
+
+/* line 19, ../../sass/sass/_parallax.scss */
+.parallax-layer-2 {
+  transform: translateZ(-4px) scale(5);
+}
+
+/* line 23, ../../sass/sass/_parallax.scss */
+.parallax-layer-1 {
+  transform: translateZ(-1px) scale(2);
+}
+
+/* line 27, ../../sass/sass/_parallax.scss */
+.parallax-layer-back {
+  transform: translateZ(-8px) scale(9);
+}
+
+/* line 31, ../../sass/sass/_parallax.scss */
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+/* line 1, ../../sass/sass/_home.scss */
+.first {
+  width: 900px;
+  height: 400px;
+  top: 50px;
+  left: 250px;
+}
+
+/* line 8, ../../sass/sass/_home.scss */
+.second {
+  width: 900px;
+  height: 300px;
+  top: 1000px;
+  left: 600px;
+}

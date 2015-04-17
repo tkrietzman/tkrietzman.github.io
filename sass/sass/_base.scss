@@ -3,7 +3,7 @@
 
 /* As hex codes */
 
-$background: #0C191D;
+$background: #4D4D4D	;
 $main: #0EAFE9;
 $body-font: 'Droid Serif', serif;
 $basic-border: 5px solid $main;
@@ -13,17 +13,17 @@ html{
 }
 
 body{
-	background: black;
+	background-color: $background;
+	background-image: linear-gradient(0deg, transparent 24%, rgba(196,196,196,.3) 25%, 
+    	rgba(196,196,196,.3) 26%, transparent 27%, transparent 74%, rgba(196,196,196,.3) 75%, 
+    	rgba(196,196,196,.3) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, 
+    	rgba(196,196,196,.3) 25%, rgba(196,196,196,.3) 26%, transparent 27%, transparent 74%, 
+    	rgba(196,196,196,.3) 75%, rgba(196,196,196,.3) 76%, transparent 77%, transparent);
+  	background-size:100px 100px;
 	color: $main;
 	font-family: $body-font;
-	height:4000px;
 }
 
-.title{
-		padding-top: 20px;
-		padding-bottom: 20px;
-		width:960px;
-}
 
 .grid-title{
 	width: 960px;
@@ -32,12 +32,6 @@ body{
 .content{
 	height: 100%;
 	background-color: $background;
-    background-image: linear-gradient(0deg, transparent 24%, rgba(117,196,235,1) 25%, 
-    	rgba(117,196,235,1) 26%, transparent 27%, transparent 74%, rgba(117,196,235,1) 75%, 
-    	rgba(117,196,235,1) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, 
-    	rgba(117,196,235,1) 25%, rgba(117,196,235,1) 26%, transparent 27%, transparent 74%, 
-    	rgba(117,196,235,1) 75%, rgba(117,196,235,1) 76%, transparent 77%, transparent);
-  	background-size:80px 80px;
 	border: $basic-border;
 }
 
@@ -48,16 +42,6 @@ body{
 
 .footer{
 	text-align: center;
-}
-
-.mtn{
-	width:100%;
-	height:100%;
-	background-image: url('../../images/mountains.png');
-	background-repeat:no-repeat;
-	position:absolute;
-	top:50%;
-	z-index: -999px;
 }
 
 .profile{
