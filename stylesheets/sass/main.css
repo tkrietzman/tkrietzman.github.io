@@ -1,119 +1,83 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/main.css" media="main, projection" rel="stylesheet" type="text/css" /> */
-/* As hex codes */
-/* As hex codes */
-/* line 13, ../../sass/sass/_base.scss */
-html {
-  overflow: hidden;
-  font-size: 14px;
-}
+/*
+Error: Invalid CSS after "  font-family:": expected expression (e.g. 1px, bold), was ";"
+        on line 19 of /Users/terren/Sites/tkrietzman.github.io/sass/sass/_focal.scss
+        from line 11 of /Users/terren/Sites/tkrietzman.github.io/sass/sass/main.scss
 
-/* line 18, ../../sass/sass/_base.scss */
-body {
-  background-color: #EAEAEA;
-  color: #DBF6FF;
-  font-family: "Montserrat", sans-serif;
-}
+14:   transform-origin:50% 600px;
+15:   transform:scale(0.75,0.75) perspective(1200px) rotateY(11deg) rotateX(48deg);
+16: }
+17: .realistic{
+18:   color:$color;
+19:   font-family:;
+20:   font-size:30px;
+21:   position:absolute;
+22:   top:0;
+23:   left:0;
+24:   max-width:900px;
 
-/* line 24, ../../sass/sass/_base.scss */
-#sidebar-wrapper {
-  background-color: #B5CCD5;
-  color: #DBF6FF;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5em;
-}
-
-/* line 31, ../../sass/sass/_base.scss */
-.sidebar-nav li a {
-  color: #DBF6FF;
-}
-
-/* line 35, ../../sass/sass/_base.scss */
-.grid-title {
-  width: 960px;
-}
-
-/* line 39, ../../sass/sass/_base.scss */
-.content {
-  height: 100%;
-  background-color: #EAEAEA;
-  border: 5px solid #DBF6FF;
-}
-
-/* line 45, ../../sass/sass/_base.scss */
-.module {
-  border: 5px solid #DBF6FF;
-  background-color: #EAEAEA;
-}
-
-/* line 50, ../../sass/sass/_base.scss */
-.footer {
-  text-align: center;
-}
-
-/* line 54, ../../sass/sass/_base.scss */
-.profile {
-  height: 350px;
-  border: 5px solid #DBF6FF;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-/* line 3, ../../sass/sass/_parallax.scss */
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective-origin-x: 100%;
-}
-
-/* line 10, ../../sass/sass/_parallax.scss */
-.parallax-layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform-origin-x: 100%;
-}
-
-/* line 19, ../../sass/sass/_parallax.scss */
-.parallax-layer-2 {
-  transform: translateZ(-4px) scale(5);
-}
-
-/* line 23, ../../sass/sass/_parallax.scss */
-.parallax-layer-1 {
-  transform: translateZ(-1px) scale(2);
-}
-
-/* line 27, ../../sass/sass/_parallax.scss */
-.parallax-layer-back {
-  transform: translateZ(-8px) scale(9);
-}
-
-/* line 31, ../../sass/sass/_parallax.scss */
-.parallax__group {
-  position: relative;
-  height: 100vh;
-  transform-style: preserve-3d;
-}
-
-/* line 1, ../../sass/sass/_home.scss */
-.first {
-  width: 900px;
-  height: 400px;
-  top: 50px;
-  left: 250px;
-}
-
-/* line 8, ../../sass/sass/_home.scss */
-.second {
-  width: 900px;
-  height: 300px;
-  top: 1000px;
-  left: 600px;
-}
+Backtrace:
+/Users/terren/Sites/tkrietzman.github.io/sass/sass/_focal.scss:19
+/Users/terren/Sites/tkrietzman.github.io/sass/sass/main.scss:11
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/script/lexer.rb:220:in `expected!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/script/parser.rb:573:in `assert_expr'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/script/parser.rb:62:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:1027:in `sass_script'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:880:in `value!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:753:in `block in try_declaration'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:1141:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:1141:in `rethrow'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:766:in `try_declaration'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:696:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/engine.rb:299:in `to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:313:in `block in visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/root_node.rb:20:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.8.5/lib/listen/listener.rb:282:in `call'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.8.5/lib/listen/listener.rb:282:in `_process_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.8.5/lib/listen/listener.rb:246:in `block in _wait_for_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.8.5/lib/listen/listener.rb:229:in `loop'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.8.5/lib/listen/listener.rb:229:in `_wait_for_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.8.5/lib/listen/listener.rb:318:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"  font-family:\": expected expression (e.g. 1px, bold), was \";\"\A         on line 19 of /Users/terren/Sites/tkrietzman.github.io/sass/sass/_focal.scss\A         from line 11 of /Users/terren/Sites/tkrietzman.github.io/sass/sass/main.scss\A \A 14:   transform-origin:50% 600px;\A 15:   transform:scale(0.75,0.75) perspective(1200px) rotateY(11deg) rotateX(48deg);\A 16: }\A 17: .realistic{\A 18:   color:$color;\A 19:   font-family:;\A 20:   font-size:30px;\A 21:   position:absolute;\A 22:   top:0;\A 23:   left:0;\A 24:   max-width:900px;"; }

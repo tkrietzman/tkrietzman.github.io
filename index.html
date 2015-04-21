@@ -10,8 +10,14 @@
     <meta name="author" content="">
 
     <title>Terren Sky Krietzman</title>
+
     <!-- FONTS -->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
+
+    <!-- SCRIPTS -->
+    <script src="/js/focal.js" type="text/javascript" charset="utf-8" async defer></script>
+    
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -55,9 +61,14 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>Simple Sidebar</h1>
-                        <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                        <div class="container">
+                            <div class="realistic original" contenteditable>
+                                <h1>Realistic Text</h1>
+                                <h2>With Changeable Focal Center</h2>
+                                <p>You may click here and type to edit the contents of this text. Move the mouse up and down to change the focal center. This silly effect is accomplished using mostly CSS. This particular version uses quite a bit of JS, though. The trick is overlaying three or more slightly transparent objects and using slightly different rotations for each. In this case, the variation between each is 0.3 degrees. Made by Lucas Bebber. You can look at my CodePen profile (@lbebber) to see other stuff I made.</p>
+                               </div>
+                            </div>
+                            <div class="overlay"></div>
                     </div>
                 </div>
             </div>
