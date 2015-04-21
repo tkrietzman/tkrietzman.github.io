@@ -2,114 +2,61 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/main.css" media="main, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-
 /* As hex codes */
 /* As hex codes */
-/* line 11, ../../sass/sass/_base.scss */
+/* line 13, ../../sass/sass/_base.scss */
 html {
   overflow: hidden;
+  font-size: 14px;
 }
 
-/* line 15, ../../sass/sass/_base.scss */
+/* line 18, ../../sass/sass/_base.scss */
 body {
-  background-color: #4D4D4D;
-  background-image: linear-gradient(0deg, transparent 24%, rgba(196, 196, 196, 0.3) 25%, rgba(196, 196, 196, 0.3) 26%, transparent 27%, transparent 74%, rgba(196, 196, 196, 0.3) 75%, rgba(196, 196, 196, 0.3) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(196, 196, 196, 0.3) 25%, rgba(196, 196, 196, 0.3) 26%, transparent 27%, transparent 74%, rgba(196, 196, 196, 0.3) 75%, rgba(196, 196, 196, 0.3) 76%, transparent 77%, transparent);
-  background-size: 100px 100px;
-  color: #0EAFE9;
-  font-family: "Droid Serif", serif;
+  background-color: #EAEAEA;
+  color: #DBF6FF;
+  font-family: "Montserrat", sans-serif;
 }
 
-/* line 28, ../../sass/sass/_base.scss */
+/* line 24, ../../sass/sass/_base.scss */
+#sidebar-wrapper {
+  background-color: #B5CCD5;
+  color: #DBF6FF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+}
+
+/* line 31, ../../sass/sass/_base.scss */
+.sidebar-nav li a {
+  color: #DBF6FF;
+}
+
+/* line 35, ../../sass/sass/_base.scss */
 .grid-title {
   width: 960px;
 }
 
-/* line 32, ../../sass/sass/_base.scss */
+/* line 39, ../../sass/sass/_base.scss */
 .content {
   height: 100%;
-  background-color: #4D4D4D;
-  border: 5px solid #0EAFE9;
+  background-color: #EAEAEA;
+  border: 5px solid #DBF6FF;
 }
 
-/* line 38, ../../sass/sass/_base.scss */
+/* line 45, ../../sass/sass/_base.scss */
 .module {
-  border: 5px solid #0EAFE9;
-  background-color: #4D4D4D;
+  border: 5px solid #DBF6FF;
+  background-color: #EAEAEA;
 }
 
-/* line 43, ../../sass/sass/_base.scss */
+/* line 50, ../../sass/sass/_base.scss */
 .footer {
   text-align: center;
 }
 
-/* line 47, ../../sass/sass/_base.scss */
+/* line 54, ../../sass/sass/_base.scss */
 .profile {
   height: 350px;
-  border: 5px solid #0EAFE9;
+  border: 5px solid #DBF6FF;
   margin-left: 20px;
   margin-top: 20px;
 }
