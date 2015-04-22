@@ -1,19 +1,66 @@
-@include keyframe(translate){
-	from { top: 0; left: 0; }
- 	 to   { top: 100px; left: 100px; }
+@include keyframes(horz-trans-1){
+	0%{
+		transform: translate(0px);
+        animation-timing-function: ease-in;
+	}
+	50%{
+		transform: translate(20vw);
+        animation-timing-function: ease-out;
+	}
+	100%{
+		transform: translate(0px);
+	}
 }
-
+@include keyframes(horz-trans-2){
+	0%{
+		transform: translate(0px);
+        animation-timing-function: ease-in;
+	}
+	50%{
+		transform: translate(30vw);
+        animation-timing-function: ease-out;
+	}
+	100%{
+		transform: translate(0px);
+	}
+}
+@include keyframes(vert-trans-1){
+	0%{
+		transform: translate(0px, 0px);
+        animation-timing-function: ease-in;
+	}
+	50%{
+		transform: translate(0, 20vh);
+        animation-timing-function: ease-out;
+	}
+	100%{
+		transform: translate(0px, 0px);
+	}
+}
+@include keyframes(vert-trans-2){
+	0%{
+		transform: translate(0px, 0px);
+        animation-timing-function: ease-in;
+	}
+	50%{
+		transform: translate(0, 50vh);
+        animation-timing-function: ease-out;
+	}
+	100%{
+		transform: translate(0px, 0px);
+	}
+}
 .background{
 	position: absolute;
 	z-index: -10;
+	opacity: .8;	
 	.vert-1{
 		position: absolute;
-		left: 0vw;
 		height: 100vh;
 		width: 10vw;
-		background: #000;
-		opacity: .1;
-		@include animation(2s, infinite, translate);
+		background: #FFF;
+		opacity:.2;
+		@include animation('horz-trans-1 8s infinite')
 	}
 	.vert-2{
 		position: absolute;
@@ -22,6 +69,8 @@
 		width: 7vw;
 		background: #000;
 		opacity: .2	;
+		@include animation('horz-trans-2 10s infinite')
+
 	}
 	.vert-3{
 		position: absolute;
@@ -29,7 +78,9 @@
 		height: 100vh;
 		width: 13vw;
 		background: $sidebar;
-		opacity: 1;
+		opacity: .5;
+		@include animation('horz-trans-1 10s infinite')
+
 	}
 	.vert-4{
 		position: absolute;
@@ -38,6 +89,8 @@
 		width: 4vw;
 		background: #FFF;
 		opacity: .2	;
+		@include animation('horz-trans-1 7s infinite')
+
 	}
 	.vert-5{
 		position: absolute;
@@ -45,7 +98,9 @@
 		height: 100vh;
 		width: 8vw;
 		background: $sidebar;
-		opacity: 1	;
+		opacity: .5	;
+		@include animation('horz-trans-1 4s infinite')
+
 	}
 	.horz-1{
 		position: absolute;
@@ -54,14 +109,17 @@
 		width: 100vw;
 		background: #FFF;
 		opacity: .5;
+		@include animation('vert-trans-1 5s infinite')
 	}
 	.horz-2{
 		position: absolute;
 		top: 18vw;
 		height: 5vh;
 		width: 100vw;
-		background: #FFF;
-		opacity: .5;
+		background: #000;
+		opacity: .2;
+		@include animation('vert-trans-2 7s infinite')
+
 	}
 	.horz-3{
 		position: absolute;
@@ -70,14 +128,18 @@
 		width: 100vw;
 		background: #FFF;
 		opacity: .5;
+		@include animation('vert-trans-1 4s infinite')
+
 	}
 	.horz-4{
 		position: absolute;
 		top: 30vw;
 		height: 5vh;
 		width: 100vw;
-		background: #FFF;
+		background: $sidebar;
 		opacity: .5;
+		@include animation('vert-trans-2 10s infinite')
+
 	}
 }
 

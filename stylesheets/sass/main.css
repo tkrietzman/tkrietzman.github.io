@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -144,81 +145,233 @@ h1, h2 {
   pointer-events: none;
 }
 
-@-webkit-keyframes $animation_name {
-  from {
-    top: 0;
-    left: 0;
+@-webkit-keyframes horz-trans-1 {
+  0% {
+    transform: translate(0px);
+            animation-timing-function: ease-in;
   }
-  to {
-    top: 100px;
-    left: 100px;
+  50% {
+    transform: translate(20vw);
+    animation-timing-function: ease-out;
   }
-}
-@-moz-keyframes $animation_name {
-  from {
-    top: 0;
-    left: 0;
-  }
-  to {
-    top: 100px;
-    left: 100px;
+  100% {
+    transform: translate(0px);
   }
 }
-@-o-keyframes $animation_name {
-  from {
-    top: 0;
-    left: 0;
+@-moz-keyframes horz-trans-1 {
+  0% {
+    transform: translate(0px);
+            animation-timing-function: ease-in;
   }
-  to {
-    top: 100px;
-    left: 100px;
+  50% {
+    transform: translate(20vw);
+    animation-timing-function: ease-out;
   }
-}
-@keyframes $animation_name {
-  from {
-    top: 0;
-    left: 0;
-  }
-  to {
-    top: 100px;
-    left: 100px;
+  100% {
+    transform: translate(0px);
   }
 }
-/* line 6, ../../sass/sass/_background.scss */
+@-o-keyframes horz-trans-1 {
+  0% {
+    transform: translate(0px);
+            animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate(20vw);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+@keyframes horz-trans-1 {
+  0% {
+    transform: translate(0px);
+            animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate(20vw);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+@-webkit-keyframes horz-trans-2 {
+  0% {
+    transform: translate(0px);
+            animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate(30vw);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+@-moz-keyframes horz-trans-2 {
+  0% {
+    transform: translate(0px);
+            animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate(30vw);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+@-o-keyframes horz-trans-2 {
+  0% {
+    transform: translate(0px);
+            animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate(30vw);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+@keyframes horz-trans-2 {
+  0% {
+    transform: translate(0px);
+            animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate(30vw);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+@-webkit-keyframes vert-trans-1 {
+  0% {
+    transform: translate(0px, 0px);
+            animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate(0, 20vh);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@-moz-keyframes vert-trans-1 {
+  0% {
+    transform: translate(0px, 0px);
+            animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate(0, 20vh);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@-o-keyframes vert-trans-1 {
+  0% {
+    transform: translate(0px, 0px);
+            animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate(0, 20vh);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes vert-trans-1 {
+  0% {
+    transform: translate(0px, 0px);
+            animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate(0, 20vh);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@-webkit-keyframes vert-trans-2 {
+  0% {
+    transform: translate(0px, 0px);
+            animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate(0, 50vh);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@-moz-keyframes vert-trans-2 {
+  0% {
+    transform: translate(0px, 0px);
+            animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate(0, 50vh);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@-o-keyframes vert-trans-2 {
+  0% {
+    transform: translate(0px, 0px);
+            animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate(0, 50vh);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes vert-trans-2 {
+  0% {
+    transform: translate(0px, 0px);
+            animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate(0, 50vh);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+/* line 53, ../../sass/sass/_background.scss */
 .background {
   position: absolute;
   z-index: -10;
+  opacity: .8;
 }
-/* line 9, ../../sass/sass/_background.scss */
+/* line 57, ../../sass/sass/_background.scss */
 .background .vert-1 {
   position: absolute;
-  left: 0vw;
   height: 100vh;
   width: 10vw;
-  background: #000;
-  opacity: .1;
-  -webkit-animation-delay: 2s;
-  -webkit-animation-duration: infinite;
-  -webkit-animation-name: translate;
-  -webkit-animation-fill-mode: forwards;
-  /* this prevents the animation from restarting! */
-  -moz-animation-delay: 2s;
-  -moz-animation-duration: infinite;
-  -moz-animation-name: translate;
-  -moz-animation-fill-mode: forwards;
-  /* this prevents the animation from restarting! */
-  -o-animation-delay: 2s;
-  -o-animation-duration: infinite;
-  -o-animation-name: translate;
-  -o-animation-fill-mode: forwards;
-  /* this prevents the animation from restarting! */
-  animation-delay: 2s;
-  animation-duration: infinite;
-  animation-name: translate;
-  animation-fill-mode: forwards;
-  /* this prevents the animation from restarting! */
+  background: #FFF;
+  opacity: .2;
+  -webkit-animation: horz-trans-1 8s infinite;
+  -moz-animation: horz-trans-1 8s infinite;
+  -o-animation: horz-trans-1 8s infinite;
+  animation: horz-trans-1 8s infinite;
 }
-/* line 18, ../../sass/sass/_background.scss */
+/* line 65, ../../sass/sass/_background.scss */
 .background .vert-2 {
   position: absolute;
   left: 20vw;
@@ -226,17 +379,25 @@ h1, h2 {
   width: 7vw;
   background: #000;
   opacity: 0.2;
+  -webkit-animation: horz-trans-2 10s infinite;
+  -moz-animation: horz-trans-2 10s infinite;
+  -o-animation: horz-trans-2 10s infinite;
+  animation: horz-trans-2 10s infinite;
 }
-/* line 26, ../../sass/sass/_background.scss */
+/* line 75, ../../sass/sass/_background.scss */
 .background .vert-3 {
   position: absolute;
   left: 37vw;
   height: 100vh;
   width: 13vw;
   background: #B5CCD5;
-  opacity: 1;
+  opacity: .5;
+  -webkit-animation: horz-trans-1 10s infinite;
+  -moz-animation: horz-trans-1 10s infinite;
+  -o-animation: horz-trans-1 10s infinite;
+  animation: horz-trans-1 10s infinite;
 }
-/* line 34, ../../sass/sass/_background.scss */
+/* line 85, ../../sass/sass/_background.scss */
 .background .vert-4 {
   position: absolute;
   left: 55vw;
@@ -244,17 +405,25 @@ h1, h2 {
   width: 4vw;
   background: #FFF;
   opacity: 0.2;
+  -webkit-animation: horz-trans-1 7s infinite;
+  -moz-animation: horz-trans-1 7s infinite;
+  -o-animation: horz-trans-1 7s infinite;
+  animation: horz-trans-1 7s infinite;
 }
-/* line 42, ../../sass/sass/_background.scss */
+/* line 95, ../../sass/sass/_background.scss */
 .background .vert-5 {
   position: absolute;
   left: 70vw;
   height: 100vh;
   width: 8vw;
   background: #B5CCD5;
-  opacity: 1;
+  opacity: 0.5;
+  -webkit-animation: horz-trans-1 4s infinite;
+  -moz-animation: horz-trans-1 4s infinite;
+  -o-animation: horz-trans-1 4s infinite;
+  animation: horz-trans-1 4s infinite;
 }
-/* line 50, ../../sass/sass/_background.scss */
+/* line 105, ../../sass/sass/_background.scss */
 .background .horz-1 {
   position: absolute;
   top: 40vw;
@@ -262,17 +431,25 @@ h1, h2 {
   width: 100vw;
   background: #FFF;
   opacity: .5;
+  -webkit-animation: vert-trans-1 5s infinite;
+  -moz-animation: vert-trans-1 5s infinite;
+  -o-animation: vert-trans-1 5s infinite;
+  animation: vert-trans-1 5s infinite;
 }
-/* line 58, ../../sass/sass/_background.scss */
+/* line 114, ../../sass/sass/_background.scss */
 .background .horz-2 {
   position: absolute;
   top: 18vw;
   height: 5vh;
   width: 100vw;
-  background: #FFF;
-  opacity: .5;
+  background: #000;
+  opacity: .2;
+  -webkit-animation: vert-trans-2 7s infinite;
+  -moz-animation: vert-trans-2 7s infinite;
+  -o-animation: vert-trans-2 7s infinite;
+  animation: vert-trans-2 7s infinite;
 }
-/* line 66, ../../sass/sass/_background.scss */
+/* line 124, ../../sass/sass/_background.scss */
 .background .horz-3 {
   position: absolute;
   top: 2vw;
@@ -280,13 +457,21 @@ h1, h2 {
   width: 100vw;
   background: #FFF;
   opacity: .5;
+  -webkit-animation: vert-trans-1 4s infinite;
+  -moz-animation: vert-trans-1 4s infinite;
+  -o-animation: vert-trans-1 4s infinite;
+  animation: vert-trans-1 4s infinite;
 }
-/* line 74, ../../sass/sass/_background.scss */
+/* line 134, ../../sass/sass/_background.scss */
 .background .horz-4 {
   position: absolute;
   top: 30vw;
   height: 5vh;
   width: 100vw;
-  background: #FFF;
+  background: #B5CCD5;
   opacity: .5;
+  -webkit-animation: vert-trans-2 10s infinite;
+  -moz-animation: vert-trans-2 10s infinite;
+  -o-animation: vert-trans-2 10s infinite;
+  animation: vert-trans-2 10s infinite;
 }
