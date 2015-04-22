@@ -1,0 +1,83 @@
+@include keyframe(translate){
+	from { top: 0; left: 0; }
+ 	 to   { top: 100px; left: 100px; }
+}
+
+.background{
+	position: absolute;
+	z-index: -10;
+	.vert-1{
+		position: absolute;
+		left: 0vw;
+		height: 100vh;
+		width: 10vw;
+		background: #000;
+		opacity: .1;
+		@include animation(2s, infinite, translate);
+	}
+	.vert-2{
+		position: absolute;
+		left: 20vw;
+		height: 100vh;
+		width: 7vw;
+		background: #000;
+		opacity: .2	;
+	}
+	.vert-3{
+		position: absolute;
+		left: 37vw;
+		height: 100vh;
+		width: 13vw;
+		background: $sidebar;
+		opacity: 1;
+	}
+	.vert-4{
+		position: absolute;
+		left: 55vw;
+		height: 100vh;
+		width: 4vw;
+		background: #FFF;
+		opacity: .2	;
+	}
+	.vert-5{
+		position: absolute;
+		left: 70vw;
+		height: 100vh;
+		width: 8vw;
+		background: $sidebar;
+		opacity: 1	;
+	}
+	.horz-1{
+		position: absolute;
+		top: 40vw;
+		height: 2vh;
+		width: 100vw;
+		background: #FFF;
+		opacity: .5;
+	}
+	.horz-2{
+		position: absolute;
+		top: 18vw;
+		height: 5vh;
+		width: 100vw;
+		background: #FFF;
+		opacity: .5;
+	}
+	.horz-3{
+		position: absolute;
+		top: 2vw;
+		height: 10vh;
+		width: 100vw;
+		background: #FFF;
+		opacity: .5;
+	}
+	.horz-4{
+		position: absolute;
+		top: 30vw;
+		height: 5vh;
+		width: 100vw;
+		background: #FFF;
+		opacity: .5;
+	}
+}
+

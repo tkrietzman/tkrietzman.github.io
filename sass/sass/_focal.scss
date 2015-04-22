@@ -1,44 +1,47 @@
 $color:#222;
 
 body{
-  background:linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.2)); 
+  background:linear-gradient(180deg,rgba(0,0,0,0.2),rgba(0,0,0,0.2)); 
   background-size:100vw 100vh;
   background-attachment:fixed;
 }
 .container{
   position:absolute;
-  top:-300px;
+  top:150px;
   left:0;
   right:0;
   transform-style:preserve-3d;
-  transform-origin:50% 600px;
-  transform:scale(0.75,0.75) perspective(1200px) rotateY(11deg) rotateX(48deg);
+  transform-origin:10% 500px;
+  transform:scale(01,01) perspective(1200px) rotateY(0deg) rotateX(0deg);
 }
 .realistic{
   color:$color;
-  font-family:;
-  font-size:30px;
+  font-family:$Montserrat;
   position:absolute;
   top:0;
   left:0;
-  max-width:900px;
+  max-width:1200px;
   text-shadow:0 0 3px transparentize($color,0.4),0 0 1px transparentize($color,0.8);
   text-align:justify;
 }
 p{
-  text-indent:60px;
+  text-indent:6em;
+  font-size: 2em;
 }
 h1{
-  font-size:120px;
+
+  font-size:2em;
 }
 h2{
-  font-size:54px;
+  text-indent:.5em;
+  font-size:6em;
+  
 }
 h1,h2{
     font-weight:normal;
-    text-align:center;
+    text-align:left;
     margin:0;
-    padding:0;
+    padding-bottom:0.3em;
     line-height:1.2em;
 }
 .realistic.blur{

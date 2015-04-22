@@ -4,8 +4,10 @@
  * <link href="/stylesheets/main.css" media="main, projection" rel="stylesheet" type="text/css" /> */
 
 // @import "compass/reset";
+@import "mixins";
 @import "compass/css3/box-shadow";
 @import "compass/css3/font-face";
 @import "base";
 @import "parallax";
 @import "focal";
+@import "background";
