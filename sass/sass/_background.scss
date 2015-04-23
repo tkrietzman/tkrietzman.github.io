@@ -9,6 +9,7 @@
 	}
 	100%{
 		transform: translate(0px);
+
 	}
 }
 @include keyframes(horz-trans-2){
@@ -54,6 +55,9 @@
 	position: absolute;
 	z-index: -10;
 	opacity: .8;	
+	div{
+		z-index:-10;
+	}
 	.vert-1{
 		position: absolute;
 		height: 100vh;

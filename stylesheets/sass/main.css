@@ -353,13 +353,17 @@ h1, h2 {
     transform: translate(0px, 0px);
   }
 }
-/* line 53, ../../sass/sass/_background.scss */
+/* line 54, ../../sass/sass/_background.scss */
 .background {
   position: absolute;
   z-index: -10;
   opacity: .8;
 }
-/* line 57, ../../sass/sass/_background.scss */
+/* line 58, ../../sass/sass/_background.scss */
+.background div {
+  z-index: -10;
+}
+/* line 61, ../../sass/sass/_background.scss */
 .background .vert-1 {
   position: absolute;
   height: 100vh;
@@ -371,7 +375,7 @@ h1, h2 {
   -o-animation: horz-trans-1 8s infinite;
   animation: horz-trans-1 8s infinite;
 }
-/* line 65, ../../sass/sass/_background.scss */
+/* line 69, ../../sass/sass/_background.scss */
 .background .vert-2 {
   position: absolute;
   left: 20vw;
@@ -384,7 +388,7 @@ h1, h2 {
   -o-animation: horz-trans-2 10s infinite;
   animation: horz-trans-2 10s infinite;
 }
-/* line 75, ../../sass/sass/_background.scss */
+/* line 79, ../../sass/sass/_background.scss */
 .background .vert-3 {
   position: absolute;
   left: 37vw;
@@ -397,7 +401,7 @@ h1, h2 {
   -o-animation: horz-trans-1 10s infinite;
   animation: horz-trans-1 10s infinite;
 }
-/* line 85, ../../sass/sass/_background.scss */
+/* line 89, ../../sass/sass/_background.scss */
 .background .vert-4 {
   position: absolute;
   left: 55vw;
@@ -410,7 +414,7 @@ h1, h2 {
   -o-animation: horz-trans-1 7s infinite;
   animation: horz-trans-1 7s infinite;
 }
-/* line 95, ../../sass/sass/_background.scss */
+/* line 99, ../../sass/sass/_background.scss */
 .background .vert-5 {
   position: absolute;
   left: 70vw;
@@ -423,7 +427,7 @@ h1, h2 {
   -o-animation: horz-trans-1 4s infinite;
   animation: horz-trans-1 4s infinite;
 }
-/* line 105, ../../sass/sass/_background.scss */
+/* line 109, ../../sass/sass/_background.scss */
 .background .horz-1 {
   position: absolute;
   top: 40vw;
@@ -436,7 +440,7 @@ h1, h2 {
   -o-animation: vert-trans-1 5s infinite;
   animation: vert-trans-1 5s infinite;
 }
-/* line 114, ../../sass/sass/_background.scss */
+/* line 118, ../../sass/sass/_background.scss */
 .background .horz-2 {
   position: absolute;
   top: 18vw;
@@ -449,7 +453,7 @@ h1, h2 {
   -o-animation: vert-trans-2 7s infinite;
   animation: vert-trans-2 7s infinite;
 }
-/* line 124, ../../sass/sass/_background.scss */
+/* line 128, ../../sass/sass/_background.scss */
 .background .horz-3 {
   position: absolute;
   top: 2vw;
@@ -462,7 +466,7 @@ h1, h2 {
   -o-animation: vert-trans-1 4s infinite;
   animation: vert-trans-1 4s infinite;
 }
-/* line 134, ../../sass/sass/_background.scss */
+/* line 138, ../../sass/sass/_background.scss */
 .background .horz-4 {
   position: absolute;
   top: 30vw;
