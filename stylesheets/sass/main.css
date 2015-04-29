@@ -5,35 +5,103 @@
  * <link href="/stylesheets/main.css" media="main, projection" rel="stylesheet" type="text/css" /> */
 /* As hex codes */
 /* As hex codes */
-/* line 13, ../../sass/sass/_base.scss */
+/* line 15, ../../sass/sass/_base.scss */
 html {
   overflow: hidden;
   font-size: 14px;
 }
 
-/* line 18, ../../sass/sass/_base.scss */
+/* line 20, ../../sass/sass/_base.scss */
 body {
   background-color: #E4EFFB;
   color: #222;
   font-family: "Montserrat", sans-serif;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
 }
 
-/* line 24, ../../sass/sass/_base.scss */
+/* line 29, ../../sass/sass/_base.scss */
 #sidebar-wrapper {
   background-color: #456C94;
   color: #E4EFFB;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
+  padding: 0;
 }
 
-/* line 31, ../../sass/sass/_base.scss */
+/* line 37, ../../sass/sass/_base.scss */
 .sidebar-nav li a {
   color: #E4EFFB;
 }
 
-/* line 35, ../../sass/sass/_base.scss */
+/* line 41, ../../sass/sass/_base.scss */
+.front-nav {
+  font-size: 2em;
+  width: 300px;
+  position: relative;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 49, ../../sass/sass/_base.scss */
+.front-nav li a {
+  color: #E4EFFB;
+}
+
+/* line 53, ../../sass/sass/_base.scss */
 #page-content-wrapper {
   padding: 0;
+}
+
+/* line 57, ../../sass/sass/_base.scss */
+.realistic {
+  padding-left: 25%;
+  color: #585858;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 64, ../../sass/sass/_base.scss */
+.realistic h1 {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  font-size: 4em;
+  text-align: right;
+  line-height: 1.2em;
+}
+
+/* line 74, ../../sass/sass/_base.scss */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(238, 238, 238, 0.3), rgba(238, 238, 238, 0));
+  z-index: 99;
+  pointer-events: none;
+}
+
+/* line 85, ../../sass/sass/_base.scss */
+h2 {
+  color: #E4EFFB;
+  font-size: 6em;
+  overflow: hidden;
+}
+
+/* line 92, ../../sass/sass/_base.scss */
+.square {
+  padding-left: 10px;
+  position: absolute;
+  width: 500px;
+  height: 100vh;
+  background: #456C94;
+  top: 0;
+  bottom: 0;
+  left: 50%;
 }
 
 /* line 3, ../../sass/sass/_parallax.scss */
@@ -75,79 +143,6 @@ body {
   position: relative;
   height: 100vh;
   transform-style: preserve-3d;
-}
-
-/* line 3, ../../sass/sass/_focal.scss */
-body {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-  background-size: 100vw 100vh;
-  background-attachment: fixed;
-}
-
-/* line 8, ../../sass/sass/_focal.scss */
-.container {
-  position: absolute;
-  top: 150px;
-  left: 0;
-  right: 0;
-  transform-style: preserve-3d;
-  transform-origin: 10% 500px;
-  transform: scale(1, 1) perspective(1200px) rotateY(0deg) rotateX(0deg);
-}
-
-/* line 17, ../../sass/sass/_focal.scss */
-.realistic {
-  color: #222;
-  font-family: "Montserrat", sans-serif;
-  position: absolute;
-  top: 0;
-  left: 0;
-  max-width: 1200px;
-  text-shadow: 0 0 3px rgba(34, 34, 34, 0.6), 0 0 1px rgba(34, 34, 34, 0.2);
-  text-align: justify;
-}
-
-/* line 27, ../../sass/sass/_focal.scss */
-p {
-  text-indent: 6em;
-  font-size: 2em;
-}
-
-/* line 31, ../../sass/sass/_focal.scss */
-h1 {
-  font-size: 2em;
-}
-
-/* line 35, ../../sass/sass/_focal.scss */
-h2 {
-  text-indent: .5em;
-  font-size: 6em;
-}
-
-/* line 40, ../../sass/sass/_focal.scss */
-h1, h2 {
-  font-weight: normal;
-  text-align: left;
-  margin: 0;
-  padding-bottom: 0.3em;
-  line-height: 1.2em;
-}
-
-/* line 47, ../../sass/sass/_focal.scss */
-.realistic.blur {
-  pointer-events: none;
-}
-
-/* line 50, ../../sass/sass/_focal.scss */
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(rgba(238, 238, 238, 0.3), rgba(238, 238, 238, 0));
-  z-index: 99;
-  pointer-events: none;
 }
 
 @-webkit-keyframes horz-trans-1 {

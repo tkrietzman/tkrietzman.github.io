@@ -9,6 +9,8 @@ $sidebar: #456C94;
 $Montserrat:'Montserrat', sans-serif;
 $body-color: #222;
 $basic-border: 5px solid $main;
+$title-color:#585858;
+
 
 html{
 	overflow:hidden;
@@ -19,6 +21,9 @@ body{
 	background-color: $background;
 	color: $body-color;
 	font-family: $Montserrat;
+	background:linear-gradient(180deg,rgba(0,0,0,0.2),rgba(0,0,0,0.2)); 
+    background-size:100vw 100vh;
+    background-attachment:fixed;
 }
 
 #sidebar-wrapper{
@@ -26,12 +31,72 @@ body{
 	color: $main;	
 	font-family: $Montserrat;
 	font-size: 1.5em;
+	padding: 0;
 }
 
 .sidebar-nav li a{
 	color: $main;
 }
 
+.front-nav{
+	font-size: 2em;	
+	width: 300px;
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.front-nav li a{
+	color: $main;
+
+}
 #page-content-wrapper{
 	padding: 0;
 }
+
+.realistic{
+  padding-left: 25%;
+  color:$title-color;
+  font-family:$Montserrat;
+  position:absolute;
+  top:0;
+  left:0;
+  h1{
+  	position: absolute;
+  	top: 0;
+  	padding: 0;
+    font-size:4em;
+    text-align: right;
+    line-height:1.2em;
+  }
+}
+
+.overlay{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:linear-gradient(transparentize(#eee,0.7),transparentize(#eee,1));
+  z-index:99;
+  pointer-events:none; 
+} 
+	
+h2{ 
+	color: $main; 
+	font-size:6em;
+   	overflow: hidden;	
+
+}
+
+.square {
+	padding-left: 10px;	
+	position: absolute;
+	width: 500px;
+	height: 100vh;
+	background: $sidebar;
+	top: 0;	
+	bottom:0;
+	left: 50%;
+}
+
