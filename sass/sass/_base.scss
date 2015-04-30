@@ -26,6 +26,11 @@ body{
     background-attachment:fixed;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 #sidebar-wrapper{
 	background-color: $sidebar;
 	color: $main;	

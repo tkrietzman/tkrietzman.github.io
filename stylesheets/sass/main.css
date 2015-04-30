@@ -22,6 +22,12 @@ body {
 }
 
 /* line 29, ../../sass/sass/_base.scss */
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+/* line 34, ../../sass/sass/_base.scss */
 #sidebar-wrapper {
   background-color: #456C94;
   color: #E4EFFB;
@@ -30,12 +36,12 @@ body {
   padding: 0;
 }
 
-/* line 37, ../../sass/sass/_base.scss */
+/* line 42, ../../sass/sass/_base.scss */
 .sidebar-nav li a {
   color: #E4EFFB;
 }
 
-/* line 41, ../../sass/sass/_base.scss */
+/* line 46, ../../sass/sass/_base.scss */
 .front-nav {
   font-size: 2em;
   width: 300px;
@@ -44,17 +50,17 @@ body {
   list-style: none;
 }
 
-/* line 49, ../../sass/sass/_base.scss */
+/* line 54, ../../sass/sass/_base.scss */
 .front-nav li a {
   color: #E4EFFB;
 }
 
-/* line 53, ../../sass/sass/_base.scss */
+/* line 58, ../../sass/sass/_base.scss */
 #page-content-wrapper {
   padding: 0;
 }
 
-/* line 57, ../../sass/sass/_base.scss */
+/* line 62, ../../sass/sass/_base.scss */
 .realistic {
   padding-left: 25%;
   color: #585858;
@@ -63,7 +69,7 @@ body {
   top: 0;
   left: 0;
 }
-/* line 64, ../../sass/sass/_base.scss */
+/* line 69, ../../sass/sass/_base.scss */
 .realistic h1 {
   position: absolute;
   top: 0;
@@ -73,7 +79,7 @@ body {
   line-height: 1.2em;
 }
 
-/* line 74, ../../sass/sass/_base.scss */
+/* line 79, ../../sass/sass/_base.scss */
 .overlay {
   position: fixed;
   top: 0;
@@ -85,14 +91,14 @@ body {
   pointer-events: none;
 }
 
-/* line 85, ../../sass/sass/_base.scss */
+/* line 90, ../../sass/sass/_base.scss */
 h2 {
   color: #E4EFFB;
   font-size: 6em;
   overflow: hidden;
 }
 
-/* line 92, ../../sass/sass/_base.scss */
+/* line 97, ../../sass/sass/_base.scss */
 .square {
   padding-left: 10px;
   position: absolute;
@@ -102,6 +108,11 @@ h2 {
   top: 0;
   bottom: 0;
   left: 50%;
+}
+
+/* line 1, ../../sass/sass/about.scss */
+.bio {
+  padding-top: 50px;
 }
 
 /* line 3, ../../sass/sass/_parallax.scss */
