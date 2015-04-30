@@ -1,1 +1,1 @@
-exclude: [sass, CNAME, .sass-cache]
+exclude: ["sass", "CNAME", ".sass-cache", "README.md"]
