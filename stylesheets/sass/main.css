@@ -110,6 +110,15 @@ h2 {
   left: 50%;
 }
 
+/* line 108, ../../sass/sass/_base.scss */
+.navbar-text {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  margin: auto;
+}
+
 /* line 1, ../../sass/sass/about.scss */
 .bio {
   padding-top: 50px;
