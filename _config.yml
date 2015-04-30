@@ -1,0 +1,1 @@
+exclude: [sass, CNAME, .sass-cache]
