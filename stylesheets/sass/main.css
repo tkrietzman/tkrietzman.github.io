@@ -60,7 +60,7 @@ body {
   padding: 0;
 }
 
-/* line 62, ../../sass/sass/_base.scss */
+/* line 61, ../../sass/sass/_base.scss */
 .realistic {
   padding-left: 25%;
   color: #585858;
@@ -69,7 +69,7 @@ body {
   top: 0;
   left: 0;
 }
-/* line 69, ../../sass/sass/_base.scss */
+/* line 68, ../../sass/sass/_base.scss */
 .realistic h1 {
   position: absolute;
   top: 0;
@@ -79,7 +79,7 @@ body {
   line-height: 1.2em;
 }
 
-/* line 79, ../../sass/sass/_base.scss */
+/* line 78, ../../sass/sass/_base.scss */
 .overlay {
   position: fixed;
   top: 0;
@@ -91,14 +91,14 @@ body {
   pointer-events: none;
 }
 
-/* line 90, ../../sass/sass/_base.scss */
+/* line 89, ../../sass/sass/_base.scss */
 h2 {
   color: #E4EFFB;
   font-size: 6em;
   overflow: hidden;
 }
 
-/* line 97, ../../sass/sass/_base.scss */
+/* line 96, ../../sass/sass/_base.scss */
 .square {
   padding-left: 10px;
   position: absolute;
@@ -110,7 +110,7 @@ h2 {
   left: 50%;
 }
 
-/* line 108, ../../sass/sass/_base.scss */
+/* line 107, ../../sass/sass/_base.scss */
 .navbar-text {
   position: absolute;
   width: 100%;
