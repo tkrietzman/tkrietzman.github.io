@@ -26,6 +26,9 @@ body{
     background-attachment:fixed;
 }
 
+#wrapper{
+	padding: 0;
+}
 .col-centered{
     float: none;
     margin: 0 auto;
@@ -59,12 +62,10 @@ body{
 	padding: 0;
 }
 .realistic{
-  	padding-left: 25%;
   	color:$title-color;
-  	font-family:$Montserrat;
+  	font-family:$Montserrat; 
   	position:absolute;
   	top:0;
-  	left:0;
   	h1{
   		position: absolute;
   		top: 0;
@@ -101,7 +102,6 @@ h2{
 	background: $sidebar;
 	top: 0;	
 	bottom:0;
-	left: 50%;
 }
 
 .navbar-text{
