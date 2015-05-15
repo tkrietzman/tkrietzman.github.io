@@ -3,7 +3,6 @@
 	{% include head.html %}
 	<body>
 <!-- 	{% include footer.html%}
- -->    <div id="wrapper">
 
             <!-- Page Content -->
             <div id="page-content-wrapper">
@@ -18,18 +17,9 @@
                             <div class="square">          
                                 <h2>terren <br> sky <br> krietzman</h2>
                                 <ul class="sidebar-nav front-nav">        
-                                    <li>
-                                        <a href="/work/">WORK</a>
-                                    </li>
-                                    <li>
-                                        <a href="/about/">ABOUT</a>
-                                    </li>
-                                    <li>
-                                        <a href="/blog/">BLOG</a>
-                                    </li>
-                                        <li>
-                                        <a href="/contact/">CONTACT</a> 
-                                      </li>
+                                    {% for page in site.pages_list %}
+                                        <li><a href="{{ page[1]  }}">{{ page[0] }}</a></li>
+                                    {% endfor %}
                                   </ul>
                             </div>
                         </div>
@@ -37,9 +27,6 @@
                 </div>
             </div>
             <!-- /#page-content-wrapper -->
-
-
-        </div>
         <!-- /#wrapper -->	
     </body>
 </html>

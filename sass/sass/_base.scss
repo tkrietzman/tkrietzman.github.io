@@ -26,8 +26,16 @@ body{
     background-attachment:fixed;
 }
 
-#wrapper{
-	padding: 0;
+.content{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: center;
+}
+
+.home-wrapper{
+	padding:none;
 }
 .col-centered{
     float: none;

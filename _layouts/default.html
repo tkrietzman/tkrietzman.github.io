@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html>
 	{% include head.html %}
-	<body>
-		<!-- Sidebar -->
-        <div class=" col-lg-4 sidebar-style" id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="/index.html">
-                        terren krietzman 
-                    </a>
-                </li>
-                {% for page in site.pages_list %}
-                    <li><a href="{{ page[1]  }}">{{ page[0] }}</a></li>
-                {% endfor %}
-            </ul>
+	<body> 
+        <div id="wrapper">
+    		<!-- Sidebar -->
+            <div class="sidebar-style" id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a href="/index.html">
+                            terren krietzman 
+                        </a>
+                    </li>
+                    {% for page in site.pages_list %}
+                        <li><a href="{{ page[1]  }}">{{ page[0] }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- /#sidebar-wrapper -->
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="content">                            
+                            {{content}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /#page-content-wrapper -->
         </div>
-        <!-- /#sidebar-wrapper -->
-		{{content}}	
-
-		{% include footer.html%}
+    		{% include footer.html%}
 
 	</body>
 </html>

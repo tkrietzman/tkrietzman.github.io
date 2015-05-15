@@ -27,11 +27,7 @@ baseurl: /
 url: http://localhost:4000
 
 # list of pages (for navigation mostly)
-pages_list:
-About: '/about.md'
-Work: '/work'
-Blog: '/blog'
-Contact: '/contact'
+pages_list: {'ABOUT': '/about', 'WORK': '/work', 'BLOG': '/blog', 'CONTACT': '/contact'}
 
 
 #### Under the Hood Stuff #####
@@ -42,7 +38,9 @@ Contact: '/contact'
 markdown: rdiscount
 
 # Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
-permalink: date
+permalink: pretty
+relative_permalinks: true
+
 
 # How many articles do you wish to appear on the front page:
 paginate: 3

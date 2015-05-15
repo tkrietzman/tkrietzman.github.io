@@ -22,17 +22,26 @@ body {
 }
 
 /* line 29, ../../sass/sass/_base.scss */
-#wrapper {
-  padding: 0;
+.content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
 }
 
-/* line 32, ../../sass/sass/_base.scss */
+/* line 37, ../../sass/sass/_base.scss */
+.home-wrapper {
+  padding: none;
+}
+
+/* line 40, ../../sass/sass/_base.scss */
 .col-centered {
   float: none;
   margin: 0 auto;
 }
 
-/* line 37, ../../sass/sass/_base.scss */
+/* line 45, ../../sass/sass/_base.scss */
 #sidebar-wrapper {
   background-color: #456C94;
   color: #E4EFFB;
@@ -41,12 +50,12 @@ body {
   padding: 0;
 }
 
-/* line 45, ../../sass/sass/_base.scss */
+/* line 53, ../../sass/sass/_base.scss */
 .sidebar-nav li a {
   color: #E4EFFB;
 }
 
-/* line 49, ../../sass/sass/_base.scss */
+/* line 57, ../../sass/sass/_base.scss */
 .front-nav {
   font-size: 2em;
   width: 300px;
@@ -55,24 +64,24 @@ body {
   list-style: none;
 }
 
-/* line 57, ../../sass/sass/_base.scss */
+/* line 65, ../../sass/sass/_base.scss */
 .front-nav li a {
   color: #E4EFFB;
 }
 
-/* line 61, ../../sass/sass/_base.scss */
+/* line 69, ../../sass/sass/_base.scss */
 #page-content-wrapper {
   padding: 0;
 }
 
-/* line 64, ../../sass/sass/_base.scss */
+/* line 72, ../../sass/sass/_base.scss */
 .realistic {
   color: #585858;
   font-family: "Montserrat", sans-serif;
   position: absolute;
   top: 0;
 }
-/* line 69, ../../sass/sass/_base.scss */
+/* line 77, ../../sass/sass/_base.scss */
 .realistic h1 {
   position: absolute;
   top: 0;
@@ -82,7 +91,7 @@ body {
   line-height: 1.2em;
 }
 
-/* line 79, ../../sass/sass/_base.scss */
+/* line 87, ../../sass/sass/_base.scss */
 .overlay {
   position: fixed;
   top: 0;
@@ -94,14 +103,14 @@ body {
   pointer-events: none;
 }
 
-/* line 90, ../../sass/sass/_base.scss */
+/* line 98, ../../sass/sass/_base.scss */
 h2 {
   color: #E4EFFB;
   font-size: 6em;
   overflow: hidden;
 }
 
-/* line 97, ../../sass/sass/_base.scss */
+/* line 105, ../../sass/sass/_base.scss */
 .square {
   padding-left: 10px;
   position: absolute;
@@ -112,7 +121,7 @@ h2 {
   bottom: 0;
 }
 
-/* line 107, ../../sass/sass/_base.scss */
+/* line 115, ../../sass/sass/_base.scss */
 .navbar-text {
   position: absolute;
   width: 100%;
